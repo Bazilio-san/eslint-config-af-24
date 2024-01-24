@@ -83,7 +83,10 @@ module.exports = {
     ],
     // in plain CommonJS modules, you can't use `import foo = require('foo')` to pass this rule, so it has to be disabled
     '@typescript-eslint/no-var-requires': 'off',
+    'comma-dangle': ['warn', 'always-multiline'],
     'consistent-return': 'off',
+    'default-case': 'off',
+    'global-require': 'off',
     'import/default': 'error',
     'import/export': 'error',
     'import/extensions': 'off',
@@ -94,6 +97,10 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
+    'linebreak-style': [
+      'error',
+      'unix',
+    ],
     'max-classes-per-file': 'off',
     'max-len': [
       'warn',
